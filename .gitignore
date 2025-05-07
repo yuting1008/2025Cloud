@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Django specific
+db.sqlite3
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+
+# Static and Media (if generated during runtime)
+staticfiles/
+media/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.sock
+
+# Local settings (optional)
+local_settings.py
+
+# Environment Variables
+.env
+.env.*
+
+# Migrations (optional - only if you regenerate often)
+# * 刪除這段會保留遷移紀錄
+# **/migrations/
+# !**/migrations/__init__.py
