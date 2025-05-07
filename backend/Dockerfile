@@ -1,5 +1,5 @@
 # backend/Dockerfile
-FROM python:3.10
+FROM python:999.999
 
 WORKDIR /app
 COPY backend/ /app/
