@@ -62,23 +62,7 @@ docker compose up --build
 本專案使用 GitHub Actions 實現 CI/CD，當有程式碼變更推送至 main 分支時，會自動建構並上傳 Container Image 至 Docker Hub Repo。
 
 ### 流程圖
-
-```vbnet
-                Developer Push / PR to main
-                         ↓
-                GitHub Actions 自動觸發
-                         ↓
-                - Build frontend image
-                - Build backend image
-                         ↓
-            Login to Docker Hub with Secrets
-                         ↓
-            Push image to Docker Hub Repo (2025cloud)
-                         ↓
-                Images available as:
-            - yutingchen1008/2025cloud:frontend
-            - yutingchen1008/2025cloud:backend
-```
+![Screenshot 2025-05-07 at 8 48 47 PM](https://github.com/user-attachments/assets/c6146080-3878-43f5-9bf2-d85a485ad3d4)
 
 ### Tag 命名邏輯說明
 
